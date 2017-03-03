@@ -414,10 +414,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #222;
+  font-family: "Roboto Regular", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
   background-color: #fff;
 }
 a {
@@ -432,6 +432,17 @@ a:focus {
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+img {
+  vertical-align: middle;
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -480,8 +491,26 @@ a:focus {
 .show {
   display: block !important;
 }
-.invisible {
-  visibility: hidden;
+.opacity0 {
+  opacity: 0!important;
+}
+.opacity1 {
+  opacity: 1!important;
+}
+.visibility0 {
+  visibility: hidden!important;
+}
+.visibility1 {
+  visibility: visible!important;
+}
+.no-padding {
+  padding: 0!important;
+}
+.no-margin {
+  margin: 0!important;
+}
+.no-border {
+  border: none!important;
 }
 @-ms-viewport {
   width: device-width;
